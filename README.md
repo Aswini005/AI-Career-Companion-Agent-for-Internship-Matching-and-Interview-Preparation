@@ -59,7 +59,6 @@ AI-Career-Companion/
 │   │   └── package.json
 │   └── run_app.py                    # Unified single-command launcher
 ├── .gitignore                        # Git exclusion rules
-├── DOCUMENTATION.md                  # Comprehensive Project Documentation
 └── README.md                         # Project README
 ```
 
