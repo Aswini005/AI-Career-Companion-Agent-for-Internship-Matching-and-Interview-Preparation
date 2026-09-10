@@ -25,6 +25,8 @@ npm run dev
 
 Then open the website at [http://localhost:5173](http://localhost:5173).
 
+Deployed preview: [AI Career Companion](https://ai-career-companion-agent-for-internship-6p0w.onrender.com/)
+
 The API documentation is available at [http://localhost:8000/docs](http://localhost:8000/docs).
 
 ## 1. PostgreSQL
