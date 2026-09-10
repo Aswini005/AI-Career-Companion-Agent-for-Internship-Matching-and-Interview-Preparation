@@ -1,0 +1,11 @@
+id,title,company,description,required_skills,preferred_skills,education,experience,location,work_mode,duration
+1,AI/ML Intern,TechNova,Build and evaluate machine learning models using real datasets,Python|Machine Learning|Pandas|NumPy,TensorFlow|Scikit-learn,B.Tech/B.E CSE or related,0-1 years,Bangalore,Hybrid,6 months
+2,Backend Developer Intern,CodeWorks,Develop REST APIs and backend services,Java|Spring Boot|SQL,Docker|Git,B.Tech/B.E CSE or related,0-1 years,Chennai,Onsite,3 months
+3,Data Science Intern,DataSphere,Analyze data and create predictive models,Python|Pandas|SQL|Statistics,Power BI|Scikit-learn,B.Tech/B.E CSE or related,0-1 years,Bangalore,Remote,6 months
+4,Generative AI Intern,GenLabs,Prototype LLM and RAG applications,Python|LLM|RAG|LangChain,Vector Databases|Transformers,B.Tech/B.E CSE or AI related,0-1 years,Bangalore,Hybrid,6 months
+5,Frontend Developer Intern,WebCraft,Build responsive web applications,React|JavaScript|HTML|CSS,TypeScript|Vite,B.Tech/B.E CSE or related,0-1 years,Hyderabad,Hybrid,4 months
+6,Full Stack Developer Intern,BuildHub,Develop frontend and backend features,React|Node.js|SQL|REST APIs,Docker|AWS,B.Tech/B.E CSE or related,0-1 years,Chennai,Hybrid,6 months
+7,NLP Intern,LanguageAI,Work on text classification and NLP pipelines,Python|NLP|Transformers|Machine Learning,PyTorch|BERT,B.Tech/B.E CSE or AI related,0-1 years,Bangalore,Remote,6 months
+8,Data Analyst Intern,InsightWorks,Prepare dashboards and analyze business data,SQL|Excel|Power BI,Python|Tableau,B.Tech/B.E or related,0-1 years,Remote,Remote,3 months
+9,Java Developer Intern,EnterpriseSoft,Create Java services and database integrations,Java|Spring Boot|PostgreSQL,REST APIs|Docker,B.Tech/B.E CSE,0-1 years,Coimbatore,Onsite,6 months
+10,Cybersecurity Intern,SecureNet,Assist with application security and security monitoring,Networking|Linux|Python,OWASP|SIEM,B.Tech/B.E CSE or Cybersecurity,0-1 years,Chennai,Onsite,6 months

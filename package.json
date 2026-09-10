@@ -1,0 +1,12 @@
+{
+  "name": "ai-career-companion-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unified runner for AI Career Companion Frontend & Backend",
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "start": "python run_app.py --build",
+    "start:backend": "python run_app.py --backend-only",
+    "dev": "python run_app.py --dev"
+  }
+}
