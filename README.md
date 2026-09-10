@@ -14,6 +14,19 @@ Complete starter implementation for:
 - React + Vite demonstration frontend
 - Swagger/OpenAPI
 
+## Website Preview
+
+Run the backend and frontend together from the project root:
+
+```powershell
+npm install
+npm run dev
+```
+
+Then open the website at [http://localhost:5173](http://localhost:5173).
+
+The API documentation is available at [http://localhost:8000/docs](http://localhost:8000/docs).
+
 ## 1. PostgreSQL
 
 Create a database:
@@ -27,7 +40,7 @@ CREATE DATABASE ai_career_companion;
 ```powershell
 cd backend
 python -m venv venv
-.env\Scripts\Activate.ps1
+.\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 copy .env.example .env
 ```
