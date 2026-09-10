@@ -1,6 +1,6 @@
 import axios from "axios";
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "/api",
+  baseURL: import.meta.env.VITE_API_URL=https://Al-Career-Companion-Agent-for-Internship-Matching-and-Interview-Preparation/api,
 });
 api.interceptors.request.use(config => {
   const token = localStorage.getItem("token");
