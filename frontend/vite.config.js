@@ -4,9 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.NODE_ENV === "production"
-    ? "/AI-Career-Companion-Agent-for-Internship-Matching-and-Interview-Preparation/"
-    : "/",
+  base: process.env.VITE_BASE_PATH || "/",
   build: {
     outDir: "dist",
     emptyOutDir: true,

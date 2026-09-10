@@ -30,6 +30,8 @@ jobs:
         run: npm ci --prefix frontend
       - name: Build frontend
         run: npm run build --prefix frontend
+        env:
+          VITE_BASE_PATH: /AI-Career-Companion-Agent-for-Internship-Matching-and-Interview-Preparation/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
