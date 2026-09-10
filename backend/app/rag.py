@@ -1,8 +1,5 @@
 from pathlib import Path
 import json
-import numpy as np
-import faiss
-from sentence_transformers import SentenceTransformer
 from sqlalchemy.orm import Session
 from app.config import settings
 from app.models import Internship
@@ -12,6 +9,7 @@ _model = None
 def model():
     global _model
     if _model is None:
+        from sentence_transformers import SentenceTransformer
         _model = SentenceTransformer("all-MiniLM-L6-v2")
     return _model
 
@@ -46,6 +44,9 @@ def candidate_text(data: dict) -> str:
     return "\n".join(f"{k}: {v or ''}" for k, v in fields)
 
 def build_index(db: Session):
+    import faiss
+    import numpy as np
+
     internships = db.query(Internship).all()
     if not internships:
         raise ValueError("No internships found. Load the internship dataset first.")
@@ -59,6 +60,9 @@ def build_index(db: Session):
     return len(internships)
 
 def search(db: Session, candidate: dict, top_k: int):
+    import faiss
+    import numpy as np
+
     path = Path(settings.vector_dir)
     index_path = path / "internships.faiss"
     ids_path = path / "ids.json"
